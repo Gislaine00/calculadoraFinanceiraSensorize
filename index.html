@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Financeiro - Sensorize</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Logo Sensorize copy.ico" type="image/png">
+</head>
+<body>
+    <h2>Calculadora Financeira</h2>
+    <hr> 
+    <div class="div_container">
+        <div class="div_calc">
+            <div class="div_inputs">
+                <label class="label_nome">Nome da sua academia:</label><br>
+                <input class="input_nome" id="input_nome" placeholder="ex. Gym Dinasty"><br><br>
+
+                <label class="label_cliente">Número de clientes:</label><br>
+                <input class="input_cliente" id="input_cliente" type="number" placeholder="ex. 100"><br><br>
+
+                <label class="label_equipamento">Número de equipamentos:</label><br>
+                <input class="input_equipamento" id="input_equipamento" type="number" placeholder="ex. 100"><br><br>
+
+                <label class="label_mensalidade">Quanto é a mensalidade:</label><br>
+                <input class="input_mensalidade" id="input_mensalidade" type="number" placeholder="ex. 100"><br><br>
+            
+                
+                <button onclick="calcular()" class="button">Calcular</button>
+            </div>
+
+        </div>
+        <div class="div_calc2" id="id_calc2">
+            <p class="p_resp" id="p_resp"></p>
+        </div>
+        
+        <div class="div_img">
+            <img class="img" src="img/pesoSite-removebg-preview.png">
+        </div>
+        
+    </div>
+</body>
+</html>
+
+<script>
+    function calcular(){
+        var nome = input_nome.value;
+        var cliente = Number(input_cliente.value);
+        var equip = Number(input_equipamento.value);
+        var porcentagem = (cliente*0.41);
+        var mensalidade = Number(input_mensalidade.value);
+        var valorPerda = porcentagem * mensalidade;
+
+        p_resp.innerHTML = `No mercado fitness, aproximadamente <span class="corzinha">25%</span> dos usuários de academia desistem devido à falta de tempo, e outros <span class="corzinha">16%</span> devido à superlotação.<br> Isso quer dizer que nos próximos meses você poderá perder até
+        <span class="corzinha">${porcentagem}</span> clientes, resultando na perda de R$ <span class="corzinha2">${valorPerda} reais</span>. Com base nesses dados, a <span class="cor">Sensorize</span>, criou um projeto chamado <span class="cor">TechGym</span>, o qual te ajudará a reter em torno de <span class="corV"> 47%</span> dos seus clientes e atrair muitos outros por causa da qualidade do serviço!`; 
+    }
+</script>

@@ -1,0 +1,163 @@
+/* corpo */
+body{
+    background-color: #FDF2CD;
+}
+
+/* titulo */
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 45px;
+}
+
+hr{
+    width: 350px;
+    height: 5px;
+    border-radius: 15px;
+    margin-top: -20px;
+    background-color: rgb(61, 59, 59);
+}
+ 
+/* div que abrange as duas caixas */
+.div_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    margin-left: 50px;
+}
+
+/* div da primeira caixa */
+.div_calc{
+    box-shadow: #FFAE34 0.1em 0.1em 0.5em;
+    margin-left: 15%;
+    border: 2px solid #FFAE34;
+    border-radius: 15px;
+    background-color: white;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* div que centraliza todos os inputs juntos */
+.div_inputs{
+    text-align: center;
+}
+
+/* label e inputs estilizados */
+.label_nome{
+    font-size: 20px;
+}
+
+.input_nome{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 25px;
+    width: 100%;
+}
+
+.label_cliente{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.input_cliente{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 25px;
+    width: 100%;
+}
+
+.label_equipamento{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.input_equipamento{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 25px;
+    width: 100%;
+}
+
+.label_mensalidade{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.input_mensalidade{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 25px;
+    width: 100%;
+}
+
+/* botão */
+.button{
+    font-size: 15px;
+    font-weight:bold;
+    background-color: #FFAE34;
+    margin-top: 5px;
+    border-radius: 15px;
+    width: 100%;
+    height: 30px;
+    box-shadow: black 0.1em 0.1em 0.5em;
+}
+
+/* div da segunda caixa */
+.div_calc2{
+    box-shadow: #FFAE34 0.1em 0.1em 0.5em;
+    margin-left: auto;
+    margin-top: 0.10%;
+    margin-right: 15%;
+    border: 2px solid #FFAE34;
+    border-radius: 15px;
+    background-color: white;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* textin de dentro da segunda caixa */
+.p_resp{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+/* cores de algumas partes do textin */
+.corzinha{
+    color: red;
+    font-weight: bold;
+}
+
+.corzinha2{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.cor{
+    color:#FFAE34;
+    font-weight: bold;
+}
+.corV{
+    color: green;
+    font-weight: bold;
+}
+
+/* div da img do peso */
+.div_img{
+    margin-top: 40%;
+    width: 70px;
+    height: 60px;
+}
+
+.img{
+    width: 70px;
+    height: 60px;
+}
