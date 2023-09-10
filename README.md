@@ -1,5 +1,5 @@
 # Calculadora Financeira - Sensorize
-Calculadora financeira para academias. Feita como tarefa de sprint1 da facul, onde é calculado possíveis perdas de clientes e uma porcentagem do que o nosso projeto daria de lucros.
+Calculadora financeira para academias. Onde é calculado possíveis perdas de clientes e uma porcentagem do que o nosso projeto daria de lucros. Realizado como tarefa de sprint1 da faculdade.
 
 <hr>
 
