@@ -11,6 +11,6 @@ Calculadora financeira para academias. Onde é calculado possíveis perdas de cl
 </div>
 
 <hr>
- https://gislaine00.github.io/
+
 
 
